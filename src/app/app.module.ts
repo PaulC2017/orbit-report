@@ -1,11 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+//import { OrbitListComponent } from './orbit-list/orbit-list.component';
+import { OrbitListComponent } from './orbit-list.component';
 import { AppComponent } from './app.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OrbitListComponent
   ],
   imports: [
     BrowserModule
@@ -13,4 +16,6 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+}
